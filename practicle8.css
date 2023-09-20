@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;600;900&family=Sigmar&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* navbar */
+header nav{
+    width: 100%;
+    height: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.2rem 2rem;
+    position: relative;
+    background-color: rgba(192, 192, 192,0.1);
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+nav .logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo .logo_img img{
+    height: 3rem;
+}
+
+nav .logo .logo_txt a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 0.8rem;
+    
+}
+
+nav .nav-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    list-style: none;
+}
+
+nav .nav-list .nav-link{
+    text-decoration: none;
+    color: #000;
+}
+
+/* navbar ends */
+
+/* img-container */
+section .img-container{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./images/clg2.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    padding: 17rem 7rem;
+}
+
+.img-container h1,
+.img-container .header_para{
+    color: #fff;
+}
+
+.img-container h1{
+    position: absolute;
+    font-size: 2.4rem;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+}
+
+.img-container .header_para{
+    position: absolute;
+    font-size: 2.4rem;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    top: 21rem;
+}
+
+.img-container a{
+    position: absolute;
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    top: 26rem;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 1rem 1.3rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.img-container a:hover{
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
+    border-radius: 2rem;
+}
+
+/* end of img-container */
+
+/* about - us */
+section .about-us{
+    background-color: rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 6rem 5rem;
+    gap: 5rem;
+}
+
+.about-us h1{
+    font-size: 2.2rem;
+}
+
+.about-us .abt_text{
+    padding: 0 2rem;
+}
+
+.abt_text h1{
+    border-bottom: 2px solid rgba(252, 210, 4, 0.486);
+}
+
+.abt_text .abt_para1{
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.abt_text .abt_para2{
+    color: rgba(22, 21, 21, 0.488);
+    font-size: 1.2rem;
+}
+
+.about-us .abt_img img{
+    width: 28rem;
+    height: 28rem;
+}
+
+/* end of about-us */
+
+/* Goals */
+section .goals{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    padding: 6rem 7rem;
+}
+
+.goals h1{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.goals h3{
+    font-size: 1.7rem;
+    font-weight: 100;
+}
+
+.goals h1,h3{
+    text-align: center;
+}
+
+.goals .cards_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.8rem;
+    margin-top: 3rem;
+}
+
+.cards_container .cards{
+    border: 2px solid rgba(255, 255, 41, 0.663);
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.cards_container .cards:nth-child(2){
+    border: 2px solid rgba(251, 87, 37, 0.589);
+}
+
+.cards_container .cards:nth-child(3){
+    border: 2px solid rgba(101, 253, 0, 0.618);
+}
+
+.cards_container .cards:nth-child(4){
+    border: 2px solid rgba(72, 89, 245, 0.539);
+}
+
+/* end of goals */
+
+/* footer */
+section .footer{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    padding: 6rem 7rem;
+}
+
+.footer .list_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_container .lists ul,
+.list_container .lists ul li{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.list_container .lists ul{
+    list-style: none;
+}
+
+.list_container .lists:nth-child(4) ul li{
+    display: inline;
+}
+
+.list_container .lists:nth-child(4) ul li a{
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    padding: 0.5rem 0.6rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+/* end of footer */
+
+
+/* prac8_Colleges.html */
+section .clg_lists{
+    font-size: 2.2rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+section .Clg_container{
+    background-color: rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.8rem;
+    padding: 5rem 6rem;
+}
+
+.Clg_container .cards_container ul{
+    list-style: none;
+}
+
+.Clg_container .cards_container ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.Clg_container .cards_container ul h1{
+    border-bottom: 2px solid rgba(252, 210, 4, 0.486);
+    margin: 1rem 0;
+}
+
+/* end of prac8_Colleges.html */
+
+/* prac8_Cource.html */
+section .cource_heading{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 1.3rem 0;
+}
+
+section .cource_lists{
+    padding: 2rem 5rem;
+}
+
+section .cource_lists .caource_Cards{
+    background-color: rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    padding: 1rem 1.2rem;
+}
+
+.caource_Cards .content1 a{
+    text-decoration: none;
+}
+
+.caource_Cards .content1 a,
+.caource_Cards .content2 h3{
+    color: #1a37f3;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.caource_Cards .content1 p,
+.caource_Cards .content2 p{
+    color: rgba(0,0,0,0.5);
+}
+
+.caource_Cards .content1 h4{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.caource_Cards .content2 a{
+    text-decoration: none;
+    
+}
+
+/* end of prac8_Cource.html */
+
+/* mca_cource */
+section .cource_Container{
+    padding: 5rem 5rem;
+}
+
+.cource_Container .cource_btn{
+    background-color: rgb(244, 193, 6);
+    text-decoration: none;
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    margin-left: 1.4rem;
+}
+
+.cource_Container .cource_contents{
+    margin-top: 1.9rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cource_contents .left_content h2{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.cource_contents .left_content p{
+    color: rgba(0,0,0,0.6);
+    margin: 1.8rem 0;
+}
+
+.right_content h2{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.right_content .cource_body{
+    background-color: rgba(0,0,0,0.1);
+    padding: 4rem 5rem;
+}
+
+.cource_body .cource_heading{
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.cource_body h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.cource_body h4{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
